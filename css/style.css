@@ -2,7 +2,10 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 100px;
     border: 5px solid red;
+    /* position: relative; */
+   
 
 }
 
@@ -10,21 +13,23 @@
 
 header {
     max-width: inherit;
-    width: inherit;
+    width: inherit; 
     background-color: #9EAEC5;
     border: 3px solid yellow;
     padding: 0 114px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 50%;
-    transform: translate(-50%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    transform: translateX(-50%)    
 
 
 }
+
+
 
 .header-logo1 {
     background-color: #C0BA8F;
@@ -60,27 +65,25 @@ ul {
 }
 
 
-.li-1 {
+.active {
     color: #623932;
-}
-
-.li-1:hover {
     border-bottom: 2px solid #623932;
 }
 
-.li-2 {
+
+.noactive1 {
     color: #E3F6F6;
 }
 
-.li-2:hover {
+.noactive1:hover {
     border-bottom: 2px solid #623932;
 }
 
-.li-3 {
+.noactive2 {
     color: #E3F6F6;
 }
 
-.li-3:hover {
+.noactive2:hover {
     border-bottom: 2px solid #623932;
 
 }
@@ -98,7 +101,6 @@ ul {
 .section1 {
     width: 100%;
     height: 678px;
-    margin-top: 100px;
     border: 5px solid green;
     background-image: url(../images/Mainphoto.png);
     background-size: cover;
@@ -107,7 +109,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+
+    
 }
 
 .text1 {
@@ -156,5 +159,39 @@ footer {
 .footer-div {
     display: flex;
     gap: 47px;
-    color:#E3F6F6;
+    
+}
+
+.fa-facebook-messenger{
+    color: #E3F6F6;
+    font-size: 2rem;
+    
+
+}
+.fa-facebook-messenger:hover{
+    
+    box-shadow: 10px 10px 20px white;
+                    
+}
+
+
+.fa-instagram {
+    color: #E3F6F6;
+    font-size: 2rem;
+}
+
+.fa-instagram:hover{
+    box-shadow: 10px 10px 20px white;
+
+}
+
+
+
+.fa-youtube{
+    color: #E3F6F6;
+    font-size: 2rem;
+}
+
+.fa-youtube:hover{
+    box-shadow: 10px 10px 20px white;
 }
