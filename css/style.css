@@ -220,8 +220,8 @@ fill-mode  შავთეთრი */
     align-items: center;
 }
 
-h2{
-    color:#FFFFFF;
+h2 {
+    color: #FFFFFF;
     font-size: 1.78rem;
     font-family: 'Rubik';
 }
@@ -231,13 +231,13 @@ h2{
 .divPtext {
     color: #FFFFFF;
     font-size: 1.25rem;
-    font-family: 'Rubik'; 
+    font-family: 'Rubik';
 
 }
 
 
 
-article{
+article {
     width: 100%;
     margin: 0 auto;
     border: 3px solid blue;
@@ -246,7 +246,7 @@ article{
 
 }
 
-h3{
+h3 {
     color: #FFFFFF;
     font-size: 2rem;
     text-align: center;
@@ -254,16 +254,16 @@ h3{
 
 }
 
-.cards{
+.cards {
     width: 98%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
-    
-   
+    justify-content: space-between;
+
+
 }
 
-.card1{
+.card1 {
     width: 30%;
     background-color: #FFFFFF;
     display: flex;
@@ -272,21 +272,91 @@ h3{
     align-items: center;
 }
 
-.photo1{
+.photo1 {
     width: 70%;
-    
+
 }
 
 
 
 /* contact */
 
-main{
+main {
     width: 100%;
-    background-color: #F5F5F5;;
+    background-color: #6A7B98;
+    padding: 89px 70px 84px 70px;
 }
 
-form{
+form {
     width: 90%;
     margin: 0 auto;
+    border: 5px solid yellow;
+    background-color: #EDF0F5;
+    border-radius: 10px;
 }
+
+.Formdiv1 {
+    padding: 32px 287px 37px 65px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 133px;
+
+}
+
+.phonediv {
+    display: flex;
+    gap: 45px;
+
+}
+
+.maildiv {
+    display: flex;
+    gap: 45px;
+
+}
+
+.addresdiv {
+    display: flex;
+    gap: 45px;
+
+}
+
+.contactext{
+    color:#623932;    
+    font-size:1.5rem;
+    font-weight: 700;
+
+}
+
+.contactext2{
+
+    color: #000000A3;
+    font-size: 1.25rem;
+    font-weight: 300;
+    
+}
+
+.fa-phone{
+    font-size: 3.5rem;
+    color: #F90E0E;
+   
+   
+}
+/* .fa-phone :hover{
+    background-color: #9EAEC5;
+    box-shadow: 10% 15% rgb(255, 0, 0, 0);
+} */
+
+.fa-envelope{
+    font-size: 3.5rem;
+    color: #F90E0E;
+
+}
+
+.fa-location-pin{
+    font-size: 3.5rem;
+    color: #F90E0E;
+
+}
+
