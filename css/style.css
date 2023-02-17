@@ -203,14 +203,90 @@ fill-mode  შავთეთრი */
 
 /* artwork */
 
+/* section */
+
 
 .divtext {
 
     width: 70%;
     border: 3px solid yellow;
+    background-color: #623932;
+    padding: 35px 38px 28px 34px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 41px;
     justify-content: center;
     align-items: center;
+}
+
+h2{
+    color:#FFFFFF;
+    font-size: 1.78rem;
+    font-family: 'Rubik';
+}
+
+
+
+.divPtext {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-family: 'Rubik'; 
+
+}
+
+
+
+article{
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid blue;
+    background-color: #6A7B98;
+    padding: 70px 50px 70px 50px;
+
+}
+
+h3{
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 150px;
+
+}
+
+.cards{
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+   
+}
+
+.card1{
+    width: 30%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1{
+    width: 70%;
+    
+}
+
+
+
+/* contact */
+
+main{
+    width: 100%;
+    background-color: #F5F5F5;;
+}
+
+form{
+    width: 90%;
+    margin: 0 auto;
 }
