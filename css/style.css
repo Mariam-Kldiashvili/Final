@@ -290,9 +290,12 @@ main {
 form {
     width: 90%;
     margin: 0 auto;
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
     background-color: #EDF0F5;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .Formdiv1 {
@@ -322,41 +325,98 @@ form {
 
 }
 
-.contactext{
-    color:#623932;    
-    font-size:1.5rem;
+.contactext {
+    color: #623932;
+    font-size: 1.5rem;
     font-weight: 700;
+    font-family: 'Rubik';
 
 }
 
-.contactext2{
+.contactext2 {
 
     color: #000000A3;
     font-size: 1.25rem;
     font-weight: 300;
-    
+
 }
 
-.fa-phone{
+.fa-phone {
     font-size: 3.5rem;
     color: #F90E0E;
-   
-   
+
+
 }
+
 /* .fa-phone :hover{
     background-color: #9EAEC5;
     box-shadow: 10% 15% rgb(255, 0, 0, 0);
 } */
 
-.fa-envelope{
+.fa-envelope {
     font-size: 3.5rem;
     color: #F90E0E;
 
 }
 
-.fa-location-pin{
+.fa-location-pin {
     font-size: 3.5rem;
     color: #F90E0E;
 
 }
 
+.Formdiv2 {
+    padding: 32px 40px 35px 0;
+    width: 50%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.infodiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 66px;
+
+}
+
+label {
+    color: #F90E0E;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Rubik';
+}
+
+input{
+    border: none;
+    border-bottom: 4px solid #FFFFFF;
+    background-color: transparent;
+}
+
+textarea {
+
+    width: 100%;
+    height: 147px;
+    resize: none;
+    font-size: 1.5rem;
+    color: #F6F5F2;
+    font-weight: 300;
+    background-color: #EDF0F5;
+    border: 4px solid white;
+    border-radius: 10px;
+
+}
+
+button{
+    width: 50%;
+    height: 88px;
+    margin-top: 60px;
+    background-color: #F90E0E;
+    color: #FFFFFF;
+    border: 4px solid white;
+    border-radius: 10px;
+    font-size: 2.25rem;
+    font-family: 'Rubik';
+}
