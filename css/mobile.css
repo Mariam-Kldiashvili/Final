@@ -1,4 +1,4 @@
-@media(max-width: 480px) {
+@media(max-width: 430px) {
 
     /* homepage */
 
@@ -17,6 +17,7 @@
         font-size: 1.5rem;
 
     }
+
     ul {
         display: none;
     }
@@ -25,7 +26,7 @@
     /* section1 */
 
 
-    .section1{
+    .section1 {
         height: 290px;
 
     }
@@ -37,12 +38,12 @@
 
     /* footer */
 
-    footer{
+    footer {
         padding: 30px 100px 30px 100px;
-       
+
     }
-    
-    .footerimg{
+
+    .footerimg {
         display: none;
     }
 
@@ -52,20 +53,21 @@
     }
 
     /* artwork */
-/* section */
-    
-    .divtext{
+    /* section */
+
+    .divtext {
 
         width: 98%;
         padding: 7px 14px 18px 15px;
         gap: 16px;
     }
-    h2{
+
+    h2 {
         font-size: 1.06rem;
 
     }
 
-    .divPtext{
+    .divPtext {
         font-size: 1rem;
 
     }
@@ -73,18 +75,18 @@
     /* article */
 
     article {
-        
+
         padding: 28px 21px 65px 21px;
 
     }
 
-    h3{
+    h3 {
 
         margin-bottom: 42px;
-        
+
     }
 
-    .cards{
+    .cards {
 
         flex-direction: column;
         row-gap: 42px;
@@ -92,22 +94,90 @@
 
     .card1 {
         width: 100%;
-        height: 458px;
+        height: 350px;
 
     }
 
-    .card3{
+    .card3 {
         display: none;
     }
 
-    /* footer */
+    .cardtext {
+        font-size: 2rem;
+
+    }
 
 
-    .footerimg {
+    /* contact */
 
+    main {
+
+        padding: 50px 0 50px 0;
+
+    }
+
+    .contactdiv {
+        width: 95%;
+        flex-direction: column;
+        padding: 24px 40px 38px 40px;
+        row-gap: 86px;
+    }
+
+
+    .contactdiv1 {
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        /* gap: 91px; */
+    }
+
+    .contact {
         display: none;
+    }
 
-            }
+    .Formdiv {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .infodiv {
+      
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        
+
+    }
+
+    .Fullname{
+        width: 90%;
+        font-size: 1.25rem;
+        margin-bottom: 42px;
+
+
+    }
+
+
+    .mail {
+        width: 90%;
+        font-size: 1.25rem;
+
+    }
+
+
+
+    .message {
+        /* height: 600px */
+    }
+
+    button[type="submit"] {
+        width: 60%;
+        height: 44px;     
+
+    }
 
 
 
@@ -115,8 +185,6 @@
 
 
 
-
-    
 
 
 

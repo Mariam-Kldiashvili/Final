@@ -2,168 +2,285 @@
 
     /* homepage */
 
-/* header */
-header{
+    /* header */
+    header {
 
-    padding: 0 3px 0 0;
-    background-color: blue;
+        padding: 0 3px 0 0;
+        
+
+    }
+
+    .header-logo1 {
+
+        width: 15%;
+
+        font-size: 1.25rem;
+
+    }
+
+
+
+    ul {
+        gap: 27px;
+    }
+
+    .fa-cart-shopping {
+        color: #EDF0F5;
+        font-size: large;
+
+    }
+
+    /* section */
+
+    .section1 {
+
+        height: 450px;
+    }
+
+    .text1 {
+        font-size: 3rem;
+
+    }
+
+    /* footer */
+
+
+    footer {
+
+        padding: 55px 21px 55px 21px;
+    }
+
+
+    .footertext {
+        display: none;
+    }
+
+    .footer-div {
+
+        gap: 21px;
+
+    }
+
+
+    /* artwork */
+    /* header */
+
+    header {
+
+        padding: 0 3px 0 0;
+       
+
+    }
+
+    .header-logo1 {
+
+        width: 15%;
+
+        font-size: 1.25rem;
+
+    }
+
+
+
+    ul {
+        gap: 27px;
+    }
+
+    .fa-cart-shopping {
+        color: #EDF0F5;
+        font-size: large;
+
+    }
+
+    .divtext {
+        padding: 14px 15px 9px 15px;
+        gap: 17px;
+
+    }
+
+    h2 {
+
+        font-size: 1.25rem;
+
+    }
+
+    .divPtext {
+
+        font-size: 1rem;
+    }
+
+    /* article */
+
+    article {
+        padding: 46px 52px 46px 52px;
+
+    }
+
+    h3 {
+
+        /* font-size: 2rem; */
+
+        margin-bottom: 92px;
+
+    }
+
+    .card1 {
+        width: 45%;
+        height: 299px;
+
+
+    }
+
+    .card3 {
+        width: 45%;
+        height: 299px;
+    }
+
+
+    .card2 {
+        display: none;
+
+    }
+
+    .cardtext {
+
+        font-size: 1.5rem;
+
+
+    }
+
+    /* footer */
+
+
+    footer {
+
+        padding: 55px 21px 55px 21px;
+    }
+
+
+    .footertext {
+        display: none;
+    }
+
+
+    .footer-div {
+
+        gap: 21px;
+
+    }
+
+
+
+    /* contact */
+
+
+    /* header */
+
+    header {
+        padding: 0;
+    }
+
+    .header-logo1 {
+        font-size: 1.5rem;
+    }
+
+
+
+    ul {
+        gap: 32px;
+        font-size: 1.25rem;
+    }
+
+    /* main */
+
+
+    main {
+        padding: 40px 24px 40px 24px;
+
+    }
+
+    .contactdiv1 {
+
+        gap: 101px;
+
+    }
+
+    .phonediv {
+
+        gap: 32px;
+
+    }
+
+    .maildiv {
+        gap: 32px;
+
+    }
+
+    .addresdiv {
+        gap: 32px;
+    }
+
+    .contactext {
+        font-size: 1.25rem;
+
+    }
+
+    .contactext2 {
+        font-size: 1rem;
+
+    }
+
+    .fa-phone {
+        font-size: 2rem;
+
+    }
+
+
+    .fa-envelope {
+        font-size: 2rem;
+
+    }
+
+    .fa-location-pin {
+        font-size: 2rem;
+    }
+
+    .infodiv {
+        margin-bottom: 39px;
+    }
+
+    .foolname {
+        font-size: 1.25rem;
+    }
+
+    .message {
+        height: 103px;
+    }
+
+    .textareatext {
+        font-size: 1rem;
+    }
+
+    button[type="submit"] {
+        height: 65px;
+        margin-top: 48px;
+        width: 70%;
+    }
+
+    /* footer */
+
+    footer {
+
+        padding: 55px 21px 55px 21px;
+    }
+
+
+
+
+
+
+
+
+
 
 }
-
-.header-logo1 {
-
-    width: 15%;
-
-    font-size: 1.25rem;
-
-}
-
-
-
-ul{
-    gap: 27px;
-}
-
-.fa-cart-shopping {
-    color: #EDF0F5;
-    font-size: large;
-
-}
-
-/* section */
-
-.section1 {
-
-    height: 450px;
-}
-
-.text1{
-    font-size: 3rem;
-
-}
-
-/* footer */
-
-
-footer{
-
-    padding: 55px 21px 55px 21px;  
-}
-
-
-.footertext{
-    display: none;
-}
-.footer-div{
-
-    gap: 21px;
-
-}    
-
-
-/* artwork */
-/* header */
-
-header{
-
-    padding: 0 3px 0 0;
-    background-color: blue;
-
-}
-
-.header-logo1 {
-
-    width: 15%;
-
-    font-size: 1.25rem;
-
-}
-
-
-
-ul{
-    gap: 27px;
-}
-
-.fa-cart-shopping {
-    color: #EDF0F5;
-    font-size: large;
-
-}
-
-.divtext{
-    padding: 14px 15px 9px 15px;
-    gap: 17px;
-
-}
-h2 {
-  
-    font-size: 1.25rem;
-  
-}
-.divPtext {
-
-    font-size: 1rem;
-}
-
-/* article */
-    
-article {
-    padding: 46px 52px 46px 52px;
-
-}
-h3 {
-    
-    font-size: 2rem;
-  
-    margin-bottom: 92px;
-
-}
-
-.card1 {
-    width: 45%;
-    height: 299px;
-
-
-}
-
-.card3{
-    width: 45%;
-    height: 299px;
-}
-
-
-.card2{
-    display: none;
-}
-
-/* footer */
-
-
-footer{
-
-    padding: 55px 21px 55px 21px;  
-}
-
-
-.footertext{
-    display: none;
-}
-
-
-.footer-div{
-
-    gap: 21px;
-
-}    
-
-
-
-
-}
-
-
-
-
-
-

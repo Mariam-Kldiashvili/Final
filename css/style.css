@@ -4,8 +4,8 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 100px;
-    border: 5px solid red;
-    /* position: relative; */
+    /* border: 5px solid red; */
+
 
 
 }
@@ -16,7 +16,7 @@ header {
     max-width: inherit;
     width: inherit;
     background-color: #9EAEC5;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     padding: 0 114px 0 100px;
     display: flex;
     justify-content: space-between;
@@ -99,7 +99,7 @@ ul {
 .section1 {
     width: 100%;
     height: 678px;
-    border: 5px solid green;
+    /* border: 5px solid green; */
     background-image: url(../images/Mainphoto.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -148,7 +148,7 @@ footer {
 }
 
 .footertext {
-    
+
     font-family: 'Rubik';
     color: #DDDBCB;
     font-size: 1.3rem;
@@ -197,9 +197,6 @@ footer {
 }
 
 
-/* overflow: hidden; დივში იქმნება დივი
-fill-mode  შავთეთრი */
-
 
 
 /* artwork */
@@ -210,11 +207,10 @@ fill-mode  შავთეთრი */
 .divtext {
 
     width: 70%;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     background-color: #623932;
     padding: 35px 38px 28px 34px;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
     gap: 41px;
     justify-content: center;
@@ -244,9 +240,9 @@ h2 {
 article {
     width: 100%;
     margin: 0 auto;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     background-color: #6A7B98;
-    padding: 70px 50px 70px 50px;
+    padding: 70px 50px;
 
 }
 
@@ -260,22 +256,18 @@ h3 {
 
 .cards {
     width: 98%;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 90px;
 }
 
-.cards :hover {
-    box-shadow: 15px 15px 15px #9EAEC5;
-}
-
 
 .card1 {
     width: 30%;
     height: 445px;
-    border: 3px solid goldenrod;
+    /* border: 3px solid goldenrod; */
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -288,7 +280,7 @@ h3 {
 .card2 {
     width: 30%;
     height: 445px;
-    border: 3px solid goldenrod;
+    /* border: 3px solid goldenrod; */
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -301,7 +293,7 @@ h3 {
 .card3 {
     width: 30%;
     height: 445px;
-    border: 3px solid goldenrod;
+    /* border: 3px solid goldenrod; */
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -315,24 +307,29 @@ h3 {
 .photpdiv {
     width: 90%;
     height: 70%;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     overflow: hidden;
-
-
-
 }
 
 .photo1 {
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     width: 100%;
     height: 100%;
     transition: 2s ease-in-out;
-
 
 }
 
 .photo1:hover {
     transform: scale(1.5);
+    cursor: pointer;
+
+}
+
+.cardtext {
+    font-family: 'Inter';
+    font-size: 2rem;
+    color: #82625D;
+    font-style: italic;
 
 }
 
@@ -343,43 +340,48 @@ h3 {
 main {
     width: 100%;
     background-color: #6A7B98;
-    padding: 89px 70px 84px 70px;
+    padding: 89px 0 84px 0;
+    /* padding: 89px 70px 84px 70px; */
 }
 
-form {
+.contactdiv {
     width: 90%;
     margin: 0 auto;
-    border: 5px solid yellow;
-    background-color: #EDF0F5;
+    padding: 32px 0 35px 0;
+    /* border: 5px solid yellow; */
+    background-color: rgba(237, 240, 245, 0.68);
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
-.Formdiv1 {
-    padding: 32px 287px 37px 65px;
-    width: 50%;
+.contactdiv1 {
+      /* border: 3px solid blue; */
+    width: 45%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     gap: 133px;
 
 }
 
 .phonediv {
     display: flex;
+    align-items: center;
     gap: 45px;
 
 }
 
 .maildiv {
     display: flex;
+    align-items: center;
     gap: 45px;
-
 }
 
 .addresdiv {
     display: flex;
+    align-items: center;
     gap: 45px;
 
 }
@@ -393,7 +395,6 @@ form {
 }
 
 .contactext2 {
-
     color: #000000A3;
     font-size: 1.25rem;
     font-weight: 300;
@@ -403,27 +404,24 @@ form {
 .fa-phone {
     font-size: 3.5rem;
     color: #F90E0E;
-
-
 }
 
 
 .fa-envelope {
     font-size: 3.5rem;
     color: #F90E0E;
-
 }
 
 .fa-location-pin {
     font-size: 3.5rem;
     color: #F90E0E;
-
 }
 
-.Formdiv2 {
-    padding: 32px 40px 35px 0;
-    width: 50%;
-    border: 3px solid black;
+
+.Formdiv {
+    /* padding: 32px 40px 35px 0; */
+    width: 45%;
+    /* border: 3px solid black; */
     display: flex;
     flex-direction: column;
 
@@ -438,18 +436,32 @@ form {
 
 }
 
+
+.Fullname,
+.mail {
+    width: 35%;
+    font-size: 1rem;
+
+}
+
+
+
+
 .foolname {
     color: #F90E0E;
     font-size: 1.5rem;
     font-weight: 700;
     font-family: 'Rubik';
+
 }
 
 .foolnameinput {
+    width: 90%;
     border: none;
     border-bottom: 4px solid #FFFFFF;
     background-color: transparent;
 }
+
 
 
 
@@ -469,13 +481,14 @@ form {
     font-size: 1.5rem;
     color: #F6F5F2;
     font-weight: 300;
-    background-color: #EDF0F5;
+    background-color: rgba(237, 240, 245, 0.68);
+    ;
     resize: none;
     border: none;
 
 }
 
-button {
+button[type="submit"] {
     width: 50%;
     height: 88px;
     margin-top: 60px;
@@ -485,4 +498,5 @@ button {
     border-radius: 10px;
     font-size: 2.25rem;
     font-family: 'Rubik';
+
 }
