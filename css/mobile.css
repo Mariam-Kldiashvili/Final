@@ -52,8 +52,65 @@
     }
 
     /* artwork */
-
+/* section */
     
+    .divtext{
+
+        width: 98%;
+        padding: 7px 14px 18px 15px;
+        gap: 16px;
+    }
+    h2{
+        font-size: 1.06rem;
+
+    }
+
+    .divPtext{
+        font-size: 1rem;
+
+    }
+
+    /* article */
+
+    article {
+        
+        padding: 28px 21px 65px 21px;
+
+    }
+
+    h3{
+
+        margin-bottom: 42px;
+        
+    }
+
+    .cards{
+
+        flex-direction: column;
+        row-gap: 42px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: 458px;
+
+    }
+
+    .card3{
+        display: none;
+    }
+
+    /* footer */
+
+
+    .footerimg {
+
+        display: none;
+
+            }
+
+
+
 
 
 

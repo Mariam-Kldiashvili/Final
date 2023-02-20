@@ -148,11 +148,10 @@ footer {
 }
 
 .footertext {
+    
     font-family: 'Rubik';
     color: #DDDBCB;
     font-size: 1.3rem;
-   
-   
 }
 
 
@@ -237,6 +236,9 @@ h2 {
 
 }
 
+
+
+
 /* article */
 
 article {
@@ -283,7 +285,20 @@ h3 {
 
 }
 
-.card2{
+.card2 {
+    width: 30%;
+    height: 445px;
+    border: 3px solid goldenrod;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.card3 {
     width: 30%;
     height: 445px;
     border: 3px solid goldenrod;
@@ -297,13 +312,13 @@ h3 {
 }
 
 
-  .photpdiv{
+.photpdiv {
     width: 90%;
     height: 70%;
     border: 3px solid yellow;
     overflow: hidden;
-   
-   
+
+
 
 }
 
@@ -312,12 +327,12 @@ h3 {
     width: 100%;
     height: 100%;
     transition: 2s ease-in-out;
-   
+
 
 }
 
 .photo1:hover {
-    transform: scale(1.5);   
+    transform: scale(1.5);
 
 }
 
@@ -391,11 +406,7 @@ form {
 
 
 }
-/* 
-.fa-phone:hover{
-    background-color: red;
-    box-shadow: 10% 15% red;
-} */
+
 
 .fa-envelope {
     font-size: 3.5rem;
@@ -418,7 +429,7 @@ form {
 
 }
 
-.infodiv{
+.infodiv {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -442,24 +453,23 @@ form {
 
 
 
-.message{
-    
+.message {
+
     width: 100%;
     height: 147px;
-    border: 4px solid  #EDF0F5;
+    border: 4px solid #EDF0F5;
     border-radius: 10px;
-    border: 4px solid  #FFFFFF;
+    border: 4px solid #FFFFFF;
 
 }
 
-.textareatext{
+.textareatext {
     width: 100%;
     height: 100%;
     font-size: 1.5rem;
-    color:#F6F5F2;
+    color: #F6F5F2;
     font-weight: 300;
-    background-color: #EDF0F5 ;
-    
+    background-color: #EDF0F5;
     resize: none;
     border: none;
 

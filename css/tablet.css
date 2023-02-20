@@ -127,6 +127,11 @@ h3 {
 
 }
 
+.card3{
+    width: 45%;
+    height: 299px;
+}
+
 
 .card2{
     display: none;
@@ -144,6 +149,8 @@ footer{
 .footertext{
     display: none;
 }
+
+
 .footer-div{
 
     gap: 21px;
