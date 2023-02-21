@@ -264,6 +264,7 @@ h3 {
 }
 
 
+
 .card1 {
     width: 30%;
     height: 445px;
@@ -274,7 +275,14 @@ h3 {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
+    transition: 1s ease-in-out;
 
+}
+
+
+.card1:hover{
+    box-shadow:15px 15px 15px black ;
+    transform: scale(1.2);
 }
 
 .card2 {
@@ -287,7 +295,12 @@ h3 {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
+    transition: 1s ease-in-out;
+}
 
+.card2:hover{
+    box-shadow:15px 15px 15px black ;
+    transform: scale(1.2);
 }
 
 .card3 {
@@ -300,7 +313,12 @@ h3 {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
+    transition: 1s ease-in-out;
+}
 
+.card3:hover{
+    box-shadow:15px 15px 15px black ;
+    transform: scale(1.2);
 }
 
 
