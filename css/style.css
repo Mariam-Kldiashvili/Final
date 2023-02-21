@@ -404,7 +404,20 @@ main {
 .fa-phone {
     font-size: 3.5rem;
     color: #F90E0E;
+    animation-name: phone;
 }
+
+/* @keyframes phone{
+
+    from{
+        color: red;
+    }
+    to{
+        color: #6A7B98;
+    }
+} */
+
+
 
 
 .fa-envelope {
