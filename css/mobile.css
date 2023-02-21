@@ -120,6 +120,8 @@
         width: 95%;
         flex-direction: column;
         padding: 24px 40px 38px 40px;
+
+        /* padding: 0 40px 38px 40px; */
         row-gap: 86px;
     }
 
@@ -144,15 +146,15 @@
     }
 
     .infodiv {
-      
+
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
-        
+
 
     }
 
-    .Fullname{
+    .Fullname {
         width: 90%;
         font-size: 1.25rem;
         margin-bottom: 42px;
@@ -167,25 +169,17 @@
 
     }
 
+    
 
-
-    .message {
-        /* height: 600px */
-    }
-
-    button[type="submit"] {
+    .submit {
         width: 60%;
-        height: 44px;     
+        height: 44px;
 
     }
 
-
-
-
-
-
-
-
+    .submit:hover{
+        cursor: pointer;
+    }
 
 
 
