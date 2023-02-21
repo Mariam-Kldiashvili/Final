@@ -6,7 +6,7 @@
     header {
 
         padding: 0 3px 0 0;
-        
+
 
     }
 
@@ -68,7 +68,7 @@
     header {
 
         padding: 0 3px 0 0;
-       
+
 
     }
 
@@ -201,7 +201,7 @@
 
     .contactdiv1 {
 
-        gap: 101px;
+        gap: 101px;  
 
     }
 
@@ -245,6 +245,12 @@
         font-size: 2rem;
     }
 
+
+    .Formdiv {
+        width: 50%;
+
+    }
+
     .infodiv {
         margin-bottom: 39px;
     }
@@ -252,6 +258,8 @@
     .foolname {
         font-size: 1.25rem;
     }
+
+
 
     .message {
         height: 103px;
@@ -261,10 +269,17 @@
         font-size: 1rem;
     }
 
+
     button[type="submit"] {
         height: 65px;
+        /* margin-top: 48px; */
+        width: 100%;
+        
+    }
+
+    .submit {
         margin-top: 48px;
-        width: 70%;
+
     }
 
     /* footer */
@@ -273,12 +288,6 @@
 
         padding: 55px 21px 55px 21px;
     }
-
-
-
-
-
-
 
 
 

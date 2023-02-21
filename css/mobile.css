@@ -97,7 +97,12 @@
         height: 350px;
 
     }
+    .card1:hover{
+        box-shadow:15px 15px 15px black ;
+        transform: scale(1);
+    }
 
+ 
     .card3 {
         display: none;
     }
@@ -172,15 +177,20 @@
     
 
     .submit {
-        width: 60%;
+        width: 65%;
         height: 44px;
 
     }
 
-    .submit:hover{
+        .submit:hover{
         cursor: pointer;
     }
 
 
+    button[type="submit"]{
+        margin-top: 0;
+    }
 
-}
+
+
+}  

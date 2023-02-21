@@ -280,8 +280,8 @@ h3 {
 }
 
 
-.card1:hover{
-    box-shadow:15px 15px 15px black ;
+.card1:hover {
+    box-shadow: 15px 15px 15px black;
     transform: scale(1.2);
 }
 
@@ -298,8 +298,8 @@ h3 {
     transition: 1s ease-in-out;
 }
 
-.card2:hover{
-    box-shadow:15px 15px 15px black ;
+.card2:hover {
+    box-shadow: 15px 15px 15px black;
     transform: scale(1.2);
 }
 
@@ -313,11 +313,11 @@ h3 {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    transition: 1s ease-in-out;
+    transition: 1s ease-out;
 }
 
-.card3:hover{
-    box-shadow:15px 15px 15px black ;
+.card3:hover {
+    box-shadow: 15px 15px 15px black;
     transform: scale(1.2);
 }
 
@@ -428,7 +428,7 @@ main {
 
 .fa-phone:hover {
     transform: scale(1.5);
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .fa-envelope {
@@ -520,9 +520,15 @@ main {
     color: #F6F5F2;
     font-weight: 300;
     background-color: rgba(237, 240, 245, 0.68);
-    ;
     resize: none;
     border: none;
+
+}
+
+.submit {
+    width: 50%;
+    /* border: 3px solid black; */
+
 
 }
 
@@ -537,20 +543,10 @@ button[type="submit"] {
     font-size: 2.25rem;
     font-family: 'Rubik';
     transition: 1s ease-in;
-    }
+}
 
-button[type="submit"]:hover{
+button[type="submit"]:hover {
     cursor: pointer;
     box-shadow: 10px 10px 15px white;
     transform: scale(1.2);
 }
-
-.submit{
-    width: 50%;
-    /* border: 3px solid black; */
-    
-    
-}
-
-
-
