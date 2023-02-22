@@ -12,9 +12,9 @@
 
     .header-logo1 {
 
-        width: 15%;
+        width: 25%;
 
-        font-size: 1.25rem;
+        font-size: .6rem;
 
     }
 
@@ -275,6 +275,7 @@
         height: 65px;
         /* margin-top: 48px; */
         width: 100%;
+        font-size: 1.25rem;
         
     }
 

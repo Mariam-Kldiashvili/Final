@@ -33,10 +33,10 @@ header {
 .header-logo1 {
     background-color: #C0BA8F;
     height: 100px;
-    width: 15%;
+    width: 20%;
     color: #F6F5F2;
     font-family: 'Rubik';
-    font-size: 2.25rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -414,7 +414,7 @@ main {
 
 .contactext2 {
     color: #000000A3;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 300;
 
 }
@@ -479,7 +479,7 @@ main {
 .mail {
    
     width: 48%;
-    font-size: 1rem;
+    font-size: .6rem;
 
 }
 
@@ -488,7 +488,7 @@ main {
 
 .foolname {
     color: #F90E0E;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     font-family: 'Rubik';
 
@@ -541,7 +541,7 @@ button[type="submit"] {
     color: #FFFFFF;
     border: 4px solid white;
     border-radius: 8px;
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: 'Rubik';
     transition: 1s ease-in;
 }
