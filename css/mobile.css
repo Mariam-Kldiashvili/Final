@@ -147,8 +147,8 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-
     }
+
 
     .infodiv {
 
@@ -160,7 +160,7 @@
     }
 
     .Fullname {
-        width: 90%;
+        width: 100%;
         font-size: 1.25rem;
         margin-bottom: 42px;
 
@@ -169,7 +169,7 @@
 
 
     .mail {
-        width: 90%;
+        width: 100%;
         font-size: 1.25rem;
 
     }
