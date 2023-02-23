@@ -92,6 +92,14 @@ ul {
 
 }
 
+.fa-bars{
+    display: none;
+}
+
+
+
+
+
 
 /* section1 */
 
@@ -202,6 +210,12 @@ footer {
 /* artwork */
 
 /* section */
+
+
+.fa-bars{
+    display: none;
+}
+
 
 
 .divtext {
@@ -354,6 +368,11 @@ h3 {
 
 
 /* contact */
+
+.fa-bars{
+    display: none;
+}
+
 
 main {
     width: 100%;

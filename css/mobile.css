@@ -22,6 +22,17 @@
         display: none;
     }
 
+    .fa-cart-shopping{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+        color: white;
+        width: 15%;
+        font-size: 1rem;
+    }
+
 
     /* section1 */
 
@@ -54,6 +65,13 @@
 
     /* artwork */
     /* section */
+
+
+    .fa-cart-shopping{
+        display: none;
+    }
+
+    
 
     .divtext {
 
@@ -112,8 +130,16 @@
 
     }
 
+    
 
     /* contact */
+
+    .fa-cart-shopping{
+        display: none;
+    }
+
+
+
 
     main {
 

@@ -30,6 +30,11 @@
 
     }
 
+    .fa-bars{
+        display: none;
+    }
+    
+
     /* section */
 
     .section1 {
@@ -91,6 +96,11 @@
         font-size: large;
 
     }
+
+    .fa-bars{
+        display: none;
+    }
+    
 
     .divtext {
         padding: 14px 15px 9px 15px;
@@ -190,6 +200,11 @@
         gap: 32px;
         font-size: 1.25rem;
     }
+
+    .fa-bars{
+        display: none;
+    }
+    
 
     /* main */
 
