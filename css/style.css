@@ -513,7 +513,7 @@ main {
 
 }
 
-.foolnameinput {
+ #Name, #mail {
     width: 90%;
     border: none;
     border-bottom: 4px solid #FFFFFF;
