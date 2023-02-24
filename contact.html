@@ -19,6 +19,8 @@
 </head>
 
 <body>
+
+
     <div class="conteiner">
 
         <!-- header -->
@@ -26,17 +28,20 @@
         <header>
 
             <a class="header-logo1" href="index.html">POTTERY</a>
-            <nav>
-                <ul>
-                    <li><a class="noactive1" href="index.html">Home</a></li>
-                    <li> <a class="noactive2" href="artwork.html">Artworks</a></li>
-                    <li><a class="active" href="#">Contact</a></li>
+
+            <nav class="navigation">
+                <ul class="navigation_ul">
+                    <li class="navigation_li"><a class="noactive" href="index.html">Home</a></li>
+                    <li class="navigation_li"><a class="noactive" href="artwork.html">Artworks</a></li>
+                    <li class="navigation_li"><a class="active" href="contact.html">Contact</a></li>
                 </ul>
             </nav>
 
-            <i class="fa-solid fa-cart-shopping"></i>
-            
+            <i class="fa-solid fa-cart-shopping "></i>
+
             <i class="fa-solid fa-bars"></i>
+
+            <i class="fa-solid fa-xmark"></i>
 
         </header>
 
@@ -48,61 +53,61 @@
             <div class="contactdiv">
 
 
-                
-            <div class="contactdiv1">
 
-                <div class="phonediv">
+                <div class="contactdiv1">
+
+                    <div class="phonediv">
 
 
-                    <a href="tel:+123 45 67  89"><i class="fa-solid fa-phone"></i> </a>
+                        <a href="tel:+123 45 67  89"><i class="fa-solid fa-phone"></i> </a>
 
-                    <div class="contact">
-                        <p class="contactext">Call Us</p>
-                        <p class="contactext2">+123 45 67 89</p>
+                        <div class="contact">
+                            <p class="contactext">Call Us</p>
+                            <p class="contactext2">+123 45 67 89</p>
+                        </div>
+
+
                     </div>
 
+                    <div class="maildiv">
 
-                </div>
+                        <a href="mailto:example@mail.com"><i class="fa-regular fa-envelope"></i></a>
 
-                <div class="maildiv">
+                        <div class="contact">
+                            <p class="contactext">Email Us</p>
+                            <p class="contactext2">example@mail.com</p>
 
-                    <a href="mailto:example@mail.com"><i class="fa-regular fa-envelope"></i></a>
-
-                    <div class="contact">
-                        <p class="contactext">Email Us</p>
-                        <p class="contactext2">example@mail.com</p>
-
-                    </div>
-                </div>
-
-
-
-
-
-                <div class="addresdiv">
-
-                    <a href="https://www.google.com/maps/place/30+%E1%83%A0%E1%83%A3%E1%83%A1%E1%83%97%E1%83%90%E1%83%95%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1+%E1%83%A5%E1%83%A3%E1%83%A9%E1%83%90,+T'bilisi/@41.7115678,44.8914137,17z/data=!3m1!4b1!4m5!3m4!1s0x4044127183ece731:0xdc6747ed36fbf87d!8m2!3d41.7115678!4d44.8936024" target="_blank">
-                        
-                        <i
-                            class="fa-solid fa-location-pin"></i></a>
-
-                    <div class="contact">
-                        <p class="contactext">Address</p>
-                        <p class="contactext2">Rustaveli avenue, 30</p>
+                        </div>
                     </div>
 
 
 
 
 
+                    <div class="addresdiv">
 
+                        <a href="https://www.google.com/maps/place/30+%E1%83%A0%E1%83%A3%E1%83%A1%E1%83%97%E1%83%90%E1%83%95%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1+%E1%83%A5%E1%83%A3%E1%83%A9%E1%83%90,+T'bilisi/@41.7115678,44.8914137,17z/data=!3m1!4b1!4m5!3m4!1s0x4044127183ece731:0xdc6747ed36fbf87d!8m2!3d41.7115678!4d44.8936024"
+                            target="_blank">
+
+                            <i class="fa-solid fa-location-pin"></i></a>
+
+                        <div class="contact">
+                            <p class="contactext">Address</p>
+                            <p class="contactext2">Rustaveli avenue, 30</p>
+                        </div>
+
+
+
+
+
+
+                    </div>
                 </div>
-            </div>
 
 
-            <form class="Formdiv" action="" method="get">
+                <form class="Formdiv" action="" method="get">
 
-                
+
 
                     <div class="infodiv">
                         <div class="Fullname">
@@ -112,15 +117,15 @@
                             <input type="text" id="Name" name="Name">
 
                         </div>
-                        
+
 
                         <div class="mail">
 
                             <label class="foolname" for="mail">Email Address*<label>
 
-                            <input type="email" id="mail" name="mail">
+                                    <input type="email" id="mail" name="mail">
 
-                            
+
 
                         </div>
 
@@ -145,21 +150,21 @@
 
 
 
-<!-- 
+                    <!-- 
                     <button type="submit">SUBMIT</button> -->
 
 
 
 
 
-                
 
 
 
-            </form>
+
+                </form>
 
 
-                
+
             </div>
 
 
@@ -203,3 +208,9 @@
 
 
         </footer>
+
+        <script src="script.js"></script>
+</body>
+
+
+</html>

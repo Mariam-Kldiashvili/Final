@@ -8,7 +8,7 @@
     }
 
     header {
-        padding: 0;
+        padding: 0 10px 0 0;
     }
 
     .header-logo1 {
@@ -18,19 +18,45 @@
 
     }
 
-    ul {
+    .navigation_ul {
+        /* display: none; */
+        position: fixed;
+        top: 60px;
+        height: 100px;
+        background-color: gray;
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        left: -101%;
+        transform: translateX(-50%);
+
+
+    }
+
+    .navigation_li {
+        font-size: .8rem;
+
+    }
+
+
+
+    .fa-cart-shopping {
         display: none;
     }
 
-    .fa-cart-shopping{
-        display: none;
-    }
-
-    .fa-bars{
+    .fa-bars {
         display: block;
         color: white;
         width: 15%;
         font-size: 1rem;
+    }
+
+
+    .show {
+        left: 15%;
     }
 
 
@@ -67,11 +93,11 @@
     /* section */
 
 
-    .fa-cart-shopping{
+    .fa-cart-shopping {
         display: none;
     }
 
-    
+
 
     .divtext {
 
@@ -115,12 +141,13 @@
         height: 350px;
 
     }
-    .card1:hover{
-        box-shadow:15px 15px 15px black ;
+
+    .card1:hover {
+        box-shadow: 15px 15px 15px black;
         transform: scale(1);
     }
 
- 
+
     .card3 {
         display: none;
     }
@@ -130,11 +157,11 @@
 
     }
 
-    
+
 
     /* contact */
 
-    .fa-cart-shopping{
+    .fa-cart-shopping {
         display: none;
     }
 
@@ -151,18 +178,16 @@
         width: 95%;
         flex-direction: column;
         padding: 24px 40px 38px 40px;
-
-        /* padding: 0 40px 38px 40px; */
         row-gap: 86px;
     }
 
 
     .contactdiv1 {
         width: 100%;
-        flex-wrap: nowrap;
+        flex-direction: row;
         justify-content: space-between;
-        align-items: center;
-        /* gap: 91px; */
+        gap: 0;
+
     }
 
     .contact {
@@ -200,7 +225,7 @@
 
     }
 
-    
+
 
     .submit {
         width: 65%;
@@ -208,15 +233,15 @@
 
     }
 
-        .submit:hover{
+    .submit:hover {
         cursor: pointer;
     }
 
 
-    button[type="submit"]{
+    button[type="submit"] {
         margin-top: 0;
     }
 
 
 
-}  
+}

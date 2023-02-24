@@ -3,24 +3,24 @@
     /* homepage */
 
     /* header */
-    header {
 
-        padding: 0 3px 0 0;
+    /* header{
+        padding: 0 15px 0 0;
+          
+    } */
 
-
-    }
 
     .header-logo1 {
 
         width: 25%;
 
-        font-size: .6rem;
+        font-size: .4rem;
 
     }
 
 
 
-    ul {
+    .navigation_ul {
         gap: 27px;
     }
 
@@ -30,10 +30,10 @@
 
     }
 
-    .fa-bars{
+    .fa-bars {
         display: none;
     }
-    
+
 
     /* section */
 
@@ -97,10 +97,10 @@
 
     }
 
-    .fa-bars{
+    .fa-bars {
         display: none;
     }
-    
+
 
     .divtext {
         padding: 14px 15px 9px 15px;
@@ -201,10 +201,10 @@
         font-size: 1.25rem;
     }
 
-    .fa-bars{
+    .fa-bars {
         display: none;
     }
-    
+
 
     /* main */
 
@@ -214,26 +214,18 @@
 
     }
 
-    .contactdiv1 {
 
-        gap: 101px;  
 
-    }
-
-    .phonediv {
-
-        gap: 32px;
-
-    }
-
-    .maildiv {
-        gap: 32px;
-
-    }
-
+    .phonediv,
+    .maildiv,
     .addresdiv {
+
         gap: 32px;
+
     }
+
+
+
 
     .contactext {
         font-size: 1.25rem;
@@ -270,9 +262,10 @@
         margin-bottom: 39px;
     }
 
-    .foolname, .mail {
+    .foolname,
+    .mail {
         /* width: 48%; */
-        font-size: 1rem;
+        font-size: .7rem;
     }
 
 
@@ -288,10 +281,9 @@
 
     button[type="submit"] {
         height: 65px;
-        /* margin-top: 48px; */
         width: 100%;
         font-size: 1.25rem;
-        
+
     }
 
     .submit {
@@ -304,6 +296,15 @@
     footer {
 
         padding: 55px 21px 55px 21px;
+    }
+
+
+    @media (max-width: 767.9px){
+        header{
+            padding: 0 15px 0 0;
+              
+        }
+
     }
 
 
