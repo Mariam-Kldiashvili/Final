@@ -302,8 +302,17 @@
         }
 
     }
+    
+}
 
 
+
+@media (max-width: 525px) {
+
+    .cardtext{
+        font-size: 1rem;
+        /* text-align: center; */
+        }
 
 
 }
