@@ -81,7 +81,7 @@
 
         width: 15%;
 
-        font-size: 1.25rem;
+        font-size: 1rem;
 
     }
 
@@ -190,15 +190,11 @@
         padding: 0;
     }
 
-    .header-logo1 {
-        font-size: 1.5rem;
-    }
-
-
+   
 
     ul {
         gap: 32px;
-        font-size: 1.25rem;
+        font-size: .9rem;
     }
 
     .fa-bars {
@@ -233,7 +229,7 @@
     }
 
     .contactext2 {
-        font-size: 1rem;
+        font-size: .7rem;
 
     }
 
